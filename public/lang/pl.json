@@ -1,0 +1,21 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "name": "Międzynarodowa analiza szczegółowa",
+        "imageUrl":"../home-1.jpg"
+        },
+      {
+        "id": 2,
+        "name": "MBAT4Seniors Manual",
+        "imageUrl":"../home-4.jpg"
+        },
+      {
+        "id": 3,
+        "name": "MBAT4Seniors Tool Kit",
+        "imageUrl": "../home-5.jpg"
+        }
+    ],
+    "startCourse": "rozpocząć kurs"
+  }
+  

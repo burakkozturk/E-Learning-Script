@@ -1,0 +1,16 @@
+{
+    "id": 10,
+    "title": "Crafting",
+    "unitDetails":{
+        "pdfUrl": "https://publuu.com/flip-book/407189/920956"
+    
+    },
+    "contents": [
+        {
+            "id": 43,
+            "description": "La artesanía es una excelente manera de practicar la atención plena. Debido a que nuestras manos tienen muchos nervios, son herramientas maravillosas para ayudarnos a conectarnos con lo que está sucediendo en este momento. Nuestro cuerpo siempre está en el presente, las sensaciones son siempre una puerta para entrar en el ahora. Y muchos estudios han demostrado que las técnicas artesanales ayudan a reducir la ansiedad y el estrés, aumentando el bienestar y la paz interior. ",
+            "imgUrl": null
+        }
+    ],
+    "hasQuiz":false
+}

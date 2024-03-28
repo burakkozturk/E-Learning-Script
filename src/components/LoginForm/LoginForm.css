@@ -1,0 +1,83 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Daha soft bir arka plan rengi */
+}
+
+.login-section, .image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px 50px; /* Kutunun boyutunu biraz küçülttüm */
+  border-radius: 10px; /* Daha yuvarlak köşeler */
+  background-color: #FFFFFF; /* Daha soft bir arka plan rengi */
+  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 500px rgba(161, 40, 101, 0.3); /* Kutuya gölge efekti ekliyoruz */
+  
+}
+
+.login-form input,
+.login-form button {
+  padding: 15px;
+  border: 1px solid #ccc; /* Daha soft bir sınır */
+  border-radius: 4px;
+  font-size: 16px; /* Daha büyük font boyutu */
+  width: 100%; /* Eşit genişlik */
+}
+
+.login-form input {
+  background-color: #e8e8e8; /* Inputlar için arka plan rengi */
+}
+
+.login-form button {
+  background-color: #767676; /* Daha soft bir buton rengi */
+  color: white;
+  cursor: pointer;
+}
+
+.login-form input::placeholder {
+  color: #767676; /* Daha soft bir placeholder rengi */
+  opacity: 1; /* Safari için */
+}
+
+.login-form button:hover {
+  background-color: #5a5a5a; /* Butona hover efekti */
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.login-section h1 {
+  display: flex;
+  justify-content: center;
+  color: #A12865; /* Daha soft bir başlık rengi */
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-icon svg {
+  margin-right: 10px; /* İkon ile input arasında boşluk */
+  color: #4A4A4A; /* Daha soft bir ikon rengi */
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px; /* Küçük font boyutu */
+  color: #4A4A4A; /* Daha soft bir link rengi */
+}

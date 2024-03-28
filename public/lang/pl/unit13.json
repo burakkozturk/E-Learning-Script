@@ -1,0 +1,15 @@
+{
+    "id": 13,
+    "title": "Reading",
+    "unitDetails":{
+        "pdfUrl": "https://publuu.com/flip-book/407189/920965"
+    },
+    "contents": [
+        {
+            "id": 46,
+            "description": "Czytanie może być również praktyką uważności. Możemy to robić z uważnym nastawieniem (i może to być łatwe, ponieważ zazwyczaj czytamy samotnie w cichej przestrzeni, takiej jak pokój), ale także dlatego, że możemy czytać teksty, które dotyczą uważności, mądrości, wewnętrznego spokoju itp. Literatura jest pełna potężnych i użytecznych tekstów, które mogą być bardzo przydatne.",
+            "imgUrl": null
+        }
+    ],
+    "hasQuiz" : false
+}

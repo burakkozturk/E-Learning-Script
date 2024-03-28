@@ -1,0 +1,15 @@
+{
+    "id": 13,
+    "title": "Reading",
+    "unitDetails":{
+        "pdfUrl": "https://publuu.com/flip-book/407189/920965"
+    },
+    "contents": [
+        {
+            "id": 46,
+            "description": "La lectura también puede ser una práctica de atención plena. Podemos hacerlo con una actitud consciente (y puede ser fácil ya que solemos leer solos en espacios silenciosos como una habitación) pero también porque podemos leer textos que tratan sobre mindfulness, sabiduría, paz interior, etc. La literatura está llena de textos poderosos y útiles que pueden ser de gran utilidad.",
+            "imgUrl": null
+        }
+    ],
+    "hasQuiz" : false
+}

@@ -1,0 +1,24 @@
+
+.footer {
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.footer a, p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer a:hover {
+    color: #A12865;
+    transition: 0.3s;
+}

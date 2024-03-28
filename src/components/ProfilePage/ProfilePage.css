@@ -1,0 +1,78 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.profile-card {
+  margin-top: 5%;
+  border: 2px solid #A12865;
+  background-color: #fff; /* Arka planı daha açık renk yaparak içeriği öne çıkarın */
+  color: #333; /* Metin rengini koyulaştırın */
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px;
+  height: 700px;
+  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 200px rgba(161, 40, 101, 0.3); /* Kutuya gölge efekti ekliyoruz */
+}
+
+.progress-bars {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+progress {
+  width: 70%;
+  height: 40px;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: 5px;
+}
+
+/* Chrome, Safari ve Opera için bar rengini değiştir */
+progress::-webkit-progress-value {
+  background-color: #9BCB37;
+}
+
+/* Chrome, Safari ve Opera için arka plan rengini değiştir */
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+/* Firefox için bar rengini değiştir */
+progress::-moz-progress-bar {
+  background-color: #9BCB37;
+}
+
+/* IE10+ için bar rengini değiştir */
+progress {
+  color: #9BCB37;
+}
+
+/* Butonlar için stil düzenlemeleri */
+.button-30, .button-update {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Arka plan renginde yumuşak geçiş */
+}
+
+.button-30:hover, .button-update:hover {
+  background-color: #45a049; /* Hover durumunda buton rengi */
+}
+
+.button-update {
+  background-color: #2196f3; /* Güncelle butonu için mavi arka plan */
+  width: 100%;
+}

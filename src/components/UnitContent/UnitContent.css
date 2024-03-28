@@ -1,0 +1,80 @@
+.unit-content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.unit-content h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-item h3 {
+    margin-top: 0;
+}
+
+.content-item p {
+    color: #333; /* Koyu gri renk */
+}
+
+.content-item img {
+    max-width: 100%; /* İmgenin en fazla kapsayıcısının genişliği kadar olmasını sağlar */
+    height: auto; /* İmgenin orijinal oranını korur */
+    display: block; /* İmgeyi blok seviyesinde bir öğe olarak ayarlar */
+    margin: 0 auto; /* İmgeyi yatay olarak ortalar */
+}
+
+/* Buton stilleri */
+.done-button, .next-button, .view-button, .quiz-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.done-button {
+    background-color: #4CAF50; /* Yeşil */
+}
+
+.done-button:hover {
+    background-color: #45a049;
+}
+
+.next-button {
+    background-color: #007bff; /* Mavi */
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+.view-button {
+    margin-left: 20px;
+    background-color: #ff5722; /* Turuncu */
+}
+
+.view-button:hover {
+    background-color: #e64a19;
+}
+
+.quiz-button {
+    margin-left: 10px;
+    background-color: #673ab7; /* Mor */
+}
+
+.quiz-button:hover {
+    background-color: #5e35b1;
+}

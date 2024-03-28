@@ -1,0 +1,44 @@
+.unit-detail {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* Arka plan rengi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+    box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 100px rgba(161, 40, 101, 0.1); /* Kutuya gölge efekti ekliyoruz */
+  }
+
+.unit-detail h2 {
+    text-align: center;
+    color: #A12865;
+    margin-bottom: 20px; /* Başlık ve liste arasında boşluk */
+}
+
+.unit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Liste genişliğini ayarla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 90%; /* Liste öğelerinin genişliğini ayarla */
+    box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 200px rgba(161, 40, 101, 0.1); /* Kutuya gölge efekti ekliyoruz */
+    justify-content: center;
+    align-items: center;
+  }
+
+.unit-list li:hover {
+    background-color: #ececec;
+    transform: translateY(-2px); /* Fare ile üzerine gelindiğinde hafifçe yukarı taşı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Fare ile üzerine gelindiğinde gölgeyi arttır */
+}

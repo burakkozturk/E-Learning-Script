@@ -1,0 +1,16 @@
+{
+    "id": 10,
+    "title": "Crafting",
+    "unitDetails":{
+        "pdfUrl": "https://publuu.com/flip-book/407189/920956"
+    
+    },
+    "contents": [
+        {
+            "id": 43,
+            "description": "Tworzenie jest doskonałym sposobem na praktykowanie uważności. Ponieważ nasze ręce mają wiele zakończeń nerwowych, są wspaniałymi narzędziami, które pomagają nam połączyć się z tym, co dzieje się tu i teraz. Nasze ciało jest zawsze w teraźniejszości, a doznania są zawsze drzwiami do wejścia w teraźniejszość. Wiele badań wykazało, że techniki rzemieślnicze pomagają zmniejszyć niepokój i stres, zwiększając dobre samopoczucie i wewnętrzny spokój",
+            "imgUrl": null
+        }
+    ],
+    "hasQuiz":false
+}

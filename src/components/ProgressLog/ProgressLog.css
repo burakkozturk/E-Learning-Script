@@ -1,0 +1,19 @@
+/* src/components/ProgressLog/ProgressLog.css */
+
+.progress-log ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .progress-log li {
+    margin-bottom: 8px;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .pending {
+    color: grey;
+  }
+  

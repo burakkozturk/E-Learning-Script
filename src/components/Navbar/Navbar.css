@@ -1,0 +1,68 @@
+nav {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo-container img {
+    margin-left: 40px;
+    margin-top: 20px;
+    max-height: 60px; /* Logo boyutu, gerektiği gibi ayarlayın */
+  }
+  
+  nav ul li {
+    padding-top: 20px;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    padding: 15px 30px;
+    color: #A12865;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 24px;
+    transition: .2s;
+    background-color: #9BCB37;
+    border-radius: 8px;
+  }
+  
+  nav ul li a:hover{
+    color: #9BCB37;
+    background-color: #A12865;
+  }
+
+  nav ul li button {
+    padding: 15px 30px;
+    font-size: 24px; /* Butonun font boyutunu ayarlayın */
+    background-color: #A12865; /* Butonun arka plan rengini belirleyin */
+    color: white; /* Butonun yazı rengini belirleyin */
+    border: none; /* Kenarlık kaldırıldı */
+    border-radius: 8px; /* Kenar yuvarlaklığı */
+    cursor: pointer; /* Fare imlecini buton üzerine getirdiğinde el simgesi */
+    transition: .2s; /* Yumuşak renk geçişi efekti */
+  }
+  
+  nav ul li button:hover {
+    background-color: #9BCB37; /* Butonun üzerine gelindiğinde arka plan rengi */
+    color: #A12865; /* Butonun üzerine gelindiğinde yazı rengi */
+  }
+  
+  .goBackButton{
+    color: #9BCB37;
+    background-color: #A12865;
+  }

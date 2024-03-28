@@ -1,0 +1,23 @@
+/* components/AboutSection.css */
+.about-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+    color: #A12865;
+  }
+  
+  .about-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #343a40;
+  }
+  
+  .about-section img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
