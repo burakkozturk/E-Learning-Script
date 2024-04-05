@@ -66,3 +66,51 @@ nav ul {
     color: #9BCB37;
     background-color: #A12865;
   }
+
+
+  /* Genel mobil stil ayarlamaları */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+  }
+
+  .logo-container img {
+    margin: 10px 0; /* Mobil cihazlarda logo boyutunu küçült */
+    max-height: 40px; /* Mobil cihazlarda logo boyutunu azalt */
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0; /* Mobil görünümde merkezlenmiş liste öğeleri */
+  }
+
+  nav ul li {
+    margin: 5px 0; /* Liste öğeleri arası boşluğu azalt */
+    padding: 10px 0; /* Daha küçük yukarı ve aşağı padding */
+  }
+
+  nav ul li a, nav ul li button {
+    padding: 10px 15px; /* Daha küçük yatay padding */
+    font-size: 18px; /* Mobil cihazlarda daha küçük font boyutu */
+  }
+}
+
+/* Daha küçük ekranlar için ek ayarlar */
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 5px;
+  }
+
+  .logo-container img {
+    margin: 5px 0; /* Daha küçük ekranlarda daha küçük logo */
+    max-height: 30px;
+  }
+
+  nav ul li a, nav ul li button {
+    padding: 8px 12px; /* Daha küçük ekranlarda daha dar padding */
+    font-size: 16px; /* Daha küçük ekranlarda daha küçük font boyutu */
+  }
+}

@@ -1,24 +1,54 @@
-
 .footer {
     background-color: #1A1A1A;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 5%;
+    padding: 20px 0; /* Düzenli bir görünüm için padding ekleyin */
+    flex-wrap: wrap; /* Gerektiğinde içeriği yeni satıra taşı */
 }
 
-.footer a, p {
-    display: flex;
-    flex-direction: row;
+.footer a, .footer p {
     margin-top: 5%;
     justify-content: center;
     align-items: center;
     margin-left: 25px;
     text-decoration: none;
     color: aliceblue;
+    text-align: center; /* Metni ortalar */
 }
 
 .footer a:hover {
     color: #A12865;
     transition: 0.3s;
+}
+
+/* Medya sorguları ile mobil uyumluluk sağlama */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer img{
+        display: none;
+    }
+
+    .footer .logo-side, .footer .link-side {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer a, .footer p {
+        margin: 10px 0; /* Mobil cihazlarda dikey boşlukları artırın */
+        margin-left: 0; /* Sol marjı kaldır */
+    }
+}
+
+/* Daha küçük ekranlar için ek ayarlar */
+@media (max-width: 480px) {
+    .footer a, .footer p {
+        font-size: 14px; /* Metin boyutunu küçült */
+    }
 }

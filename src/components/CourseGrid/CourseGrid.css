@@ -1,10 +1,12 @@
 *{box-sizing: border-box;}
+
 .container{
-    margin-top: 6%;
+    margin-top: 4%; /* Daha küçük cihazlar için üst boşluğu azaltın */
     min-height: 500px;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    flex-wrap: wrap; /* Yeni satıra geçmesi için */
+    justify-content: space-evenly;
     color: #fff;
 }
 
@@ -13,18 +15,18 @@
   flex-direction: column;
   justify-content: space-between;
   height: 600px;
-  width: 380px;
+  width: 380px; /* Başlangıç genişliği */
   border-radius: 3%;
   padding: 10px;
-  box-sizing: border-box;
-  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 200px rgba(161, 40, 101, 0.1); /* Kutuya gölge efekti ekliyoruz */
+  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 200px rgba(161, 40, 101, 0.1);
 }
 
 .box:hover{cursor: pointer;}
 
 .box img{
-    width: 350px;
-    height: 280px;
+    width: 100%; /* Resimleri kutuya sığdırmak için */
+    max-width: 350px; /* Maksimum genişlik */
+    height: auto; /* Yüksekliği orantılı olarak ayarla */
 }
 
 .box img:hover{
@@ -35,9 +37,7 @@
 .box h1{
     font-size: 30px;
     color: #343a40;
-
     text-align: center;
-
 }
 
 .box p{
@@ -45,48 +45,45 @@
     text-align: center;
 }
 
-
 .button-30 {
   align-items: center;
   appearance: none;
   background-color: #343a40;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  box-sizing: border-box;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
+  font-family: "JetBrains Mono", monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
-  list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 16px; /* Sağ ve sol padding */
   position: relative;
-  float: right;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow .15s, transform .15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  will-change: box-shadow, transform;
   font-size: 18px;
+  width: auto; /* Buton genişliği otomatik ayarlanır */
+  margin-top: 10px; /* Kutu içeriğinden sonra boşluk */
 }
 
-.button-30:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
+/* Ekran boyutuna göre ayarlamalar */
+@media (max-width: 768px) {
+  .box {
+    width: 100%; /* Mobil cihazlarda kutu genişliği */
+    margin: 0 auto; /* Merkezleme */
+    height: auto; /* Yükseklik otomatik ayarlanır */
+    margin-bottom: 20px; /* Kutular arası boşluk */
+  }
+  .container {
+    flex-direction: column; /* Kutuları dikey olarak hizalar */
+    align-items: center; /* Merkezleme */
+  }
 }

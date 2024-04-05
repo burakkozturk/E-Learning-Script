@@ -20,7 +20,7 @@ function UnitContent() {
         if (!response.ok) throw new Error('Data could not be fetched');
         const data = await response.json();
         setContents(data.contents);
-        setUnitDetails({ pdfUrl: data.pdfUrl });
+        setUnitDetails({ pdfUrl: data.unitDetails.pdfUrl }); // API'dan gelen pdfUrl'i burada ayarlayın
         setHasQuiz(data.hasQuiz);
       } catch (error) {
         console.error("Error:", error);
@@ -34,9 +34,12 @@ function UnitContent() {
   const handleNext = () => setCurrentIndex(currentIndex < contents.length - 1 ? currentIndex + 1 : currentIndex);
   const handleDone = () => navigate(`/`);
   const handleViewPdf = () => {
+    // unitDetails içinde pdfUrl var mı diye kontrol edin
     if (unitDetails && unitDetails.pdfUrl) {
+      // Eğer varsa, yeni sekmede açın
       window.open(unitDetails.pdfUrl, '_blank');
     } else {
+      // Eğer yoksa, kullanıcıya hata mesajı gösterin
       alert('PDF URL not found for this unit');
     }
   };
