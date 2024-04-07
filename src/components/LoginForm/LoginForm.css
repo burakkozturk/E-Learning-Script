@@ -81,3 +81,35 @@ a {
   font-size: 16px; /* Küçük font boyutu */
   color: #4A4A4A; /* Daha soft bir link rengi */
 }
+
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .login-section, .image-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .login-form {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .login-form input,
+  .login-form button {
+    padding: 12px;
+    font-size: 14px; /* Daha küçük ekranlar için font boyutunu azalt */
+  }
+
+  .input-icon svg {
+    margin-right: 5px; /* İkon ile input arasındaki boşluğu azalt */
+  }
+
+  .login-section h1 {
+    font-size: 24px; /* Başlık font boyutunu azalt */
+  }
+}

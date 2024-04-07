@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Daha soft bir arka plan rengi, login ile aynı */
+  height: 100vh;
 }
 
 .register-section {
@@ -15,44 +15,41 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 50px 50px; /* Daha dengeli padding */
-  border-radius: 10px; /* Daha yuvarlak köşeler */
-  background-color: #FFFFFF; /* Daha soft bir arka plan rengi */
-  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 20px rgba(161, 40, 101, 0.3); /* Kutuya gölge efekti ekliyoruz, login ile aynı */
+  padding: 50px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(161, 40, 101, 0.2), 0 6px 20px rgba(161, 40, 101, 0.3);
 }
 
 .register-section h1 {
-  display: flex;
-  justify-content: center;
-  color: #4A4A4A; /* Daha soft bir başlık rengi, login ile uyumlu */
+  color: #4A4A4A;
 }
 
 .register-form input,
 .register-form button {
   padding: 15px;
-  border: 1px solid #ccc; /* Daha soft bir sınır */
+  border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
 }
 
 .register-form input {
-  background-color: #e8e8e8; /* Inputlar için arka plan rengi */
+  background-color: #e8e8e8;
 }
 
 .register-form button {
-  background-color: #767676; /* Daha soft bir buton rengi */
+  background-color: #767676;
   color: white;
   cursor: pointer;
 }
 
 .register-form input::placeholder {
-  color: #767676; /* Daha soft bir placeholder rengi */
-  opacity: 1; /* Safari için */
+  color: #767676;
+  opacity: 1;
 }
 
 .register-form button:hover {
-  background-color: #5a5a5a; /* Butona hover efekti, daha soft */
+  background-color: #5a5a5a;
 }
 
 .input-icon {
@@ -62,14 +59,48 @@
 }
 
 .input-icon svg {
-  margin-right: 10px; /* İkon ile input arasında boşluk */
-  color: #4A4A4A; /* Daha soft bir ikon rengi */
+  margin-right: 10px;
+  color: #4A4A4A;
 }
 
 a {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
-  font-size: 16px; /* Daha küçük font boyutu */
-  color: #4A4A4A; /* Daha soft bir link rengi */
+  font-size: 16px;
+  color: #4A4A4A;
+  align-self: center; /* Sağlam bir hizalama sağlar */
+}
+
+/* Responsive tasarım için medya sorguları */
+@media (max-width: 768px) {
+  .register-form {
+    padding: 40px 20px; /* Mobil cihazlarda daha az padding */
+    width: 90%; /* Ekran genişliğine göre genişlik ayarla */
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); /* Mobil için daha hafif gölge */
+  }
+
+  .register-section h1 {
+    font-size: 24px; /* Mobil cihazlarda başlık boyutunu azalt */
+  }
+
+  .register-form input,
+  .register-form button {
+    padding: 12px; /* Mobil cihazlarda daha az padding */
+    font-size: 14px; /* Mobil cihazlarda yazı boyutunu küçült */
+  }
+
+  .input-icon svg {
+    width: 20px; /* İkon boyutunu azalt */
+    height: 20px; /* İkon boyutunu azalt */
+  }
+}
+
+@media (max-width: 480px) {
+  .register-form {
+    padding: 30px 10px; /* Çok küçük ekranlar için daha az padding */
+    width: 100%; /* Tam ekran genişliğini kullan */
+  }
+
+  .input-icon svg {
+    margin-right: 8px; /* İkon ile metin arasındaki boşluğu azalt */
+  }
 }

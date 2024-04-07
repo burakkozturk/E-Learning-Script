@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Koks tyrimo metodas buvo taikomas atliekant projekto mokymosi medžiagos poreikių analizę?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Apklausos",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Interviu",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Teminė analizė",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Atvejų tyrimai",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Koks buvo pagrindinis nuo 2022 m. vasaros iki 2022 m. pabaigos atlikto tyrimo tikslas?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Senjorų fizinės sveikatos vertinimas",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Bendrų senjorų psichikos sveikatos problemų nustatymas COVID-19 pandemijos metu",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "esamų mobiliųjų programėlių veiksmingumo vertinimas",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "senjorų ir suaugusiųjų švietėjų IT įgūdžių analizė",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Kiek specialistų buvo apklausta šešiose projekto partnerių šalyse ?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Koks tyrimo metodas buvo naudojamas surinktiems duomenims analizuoti?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Statistinė analizė",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Teminė analizė",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Lyginamoji analizė",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Eksperimentinė analizė",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Kokios pagrindinės temos, remiantis tyrimo rezultatais, išryškėjo atlikus teminę analizę?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Ekonominiai klausimai, politiniai iššūkiai, socialinės galimybės",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Psichologinės problemos, priežastys, įveikimo strategijos, iššūkiai ir programų specifikacijos",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Kultūriniai skirtumai, kalbos barjerai, technologinė pažanga",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Fizinė sveikata, emocinė gerovė, aplinkos veiksniai",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

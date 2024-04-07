@@ -1,78 +1,76 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { useLanguage } from '../../context/LanguageContext';
 import './QuizPage.css';
-import quizDataJSON from '../../data/quizzes/quiz-unit4.json'; // JSON dosyanızın yolu
+// Tüm olası dil dosyalarını önceden import et
+import quizDataEN from '../../data/quizzes/quiz-unit4-en.json';
+import quizDataTR from '../../data/quizzes/quiz-unit4-tr.json'; // Örnek olarak Türkçe, diğer diller için benzer şekilde
 
 function QuizPage() {
-    const { unitId } = useParams();
-    const [quizData, setQuizData] = useState(null);
-    const [loading, setLoading] = useState(true);
+  const { unitId } = useParams();
+  const { language } = useLanguage();
+  const [quizData, setQuizData] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchQuizData = async () => {
-            try {
-                // JSON dosyasını doğrudan import ederek kullan
-                // Örnek: unitId'ye göre filtreleme yapabilirsiniz. Burada basit bir örnek verilmiştir.
-                const data = quizDataJSON.find(quiz => quiz.unitId.toString() === unitId); // unitId string olduğu için dönüşüm yapılıyor
-                if (!data) {
-                    throw new Error('Quiz data could not be fetched');
-                }
-                setQuizData(data);
-            } catch (error) {
-                console.error(error);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchQuizData();
-    }, [unitId]);
-
-    if (loading) {
-        return <div>Loading...</div>;
+  useEffect(() => {
+    console.log("Aktif dil:", language); // Aktif dil değerini konsola yazdır
+    console.log("Unit ID:", unitId); // Unit ID değerini konsola yazdır
+    setLoading(true);
+    let data;
+    switch (language) {
+      case 'en':
+        data = quizDataEN;
+        break;
+      case 'tr':
+        data = quizDataTR;
+        break;
+      // Diğer diller için ek case'ler eklenebilir
+      default:
+        data = quizDataEN; // Varsayılan olarak İngilizce
     }
 
-    if (!quizData) {
-        return <div>Quiz not found.</div>;
+    const filteredData = data.find(quiz => quiz.unitId.toString() === unitId); // unitId'ye göre filtreleme
+    if (filteredData) {
+      setQuizData(filteredData);
+    } else {
+      console.error('Quiz data could not be found for unitId:', unitId);
+      setQuizData(null);
     }
-    const handleSubmit = (e) => {
-        e.preventDefault(); // Formun varsayılan gönderim davranışını engelle
 
-        let correctCount = 0;
-        const formData = new FormData(e.target);
-        const userAnswers = Object.fromEntries(formData.entries());
+    setLoading(false);
+  }, [language, unitId]); // Dil veya unitId değiştiğinde içerikleri yeniden yükleyin
 
-        quizData.questions.forEach(question => {
-            const correctOption = question.options.find(option => option.correct);
-            if (correctOption && userAnswers[`question-${question.id}`] === correctOption.id.toString()) {
-                correctCount++;
-            }
-        });
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
-        const incorrectCount = quizData.questions.length - correctCount;
-        alert(`Doğru: ${correctCount}, Yanlış: ${incorrectCount}`);
-    };
+  if (!quizData || !quizData.questions) {
+    return <div>Quiz not found.</div>;
+  }
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Form işlemleri...
+  };
 
-    return (
-        <div>
-            <form onSubmit={handleSubmit}>
-            {quizData.questions.map((question, index) => (
-                <div key={index} className="question">
-                    <h3 className="question-text">{question.questionText}</h3>
-                    {question.options.map((option) => (
-                        <label key={option.id} className="option">
-                            <input type="radio" name={`question-${question.id}`} value={option.id} />
-                            {option.optionText}
-                        </label>
-                    ))}
-                </div>
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        {quizData.questions.map((question, index) => (
+          <div key={index} className="question">
+            <h3 className="question-text">{question.questionText}</h3>
+            {question.options.map((option) => (
+              <label key={option.id} className="option">
+                <input type="radio" name={`question-${question.id}`} value={option.id} />
+                {option.optionText}
+              </label>
             ))}
-            <button type="submit" className="submit-btn">Submit</button>
-        </form>
-        </div>
-
-    );
+          </div>
+        ))}
+        <button type="submit" className="submit-btn">Submit</button>
+      </form>
+    </div>
+  );
 }
 
 export default QuizPage;

@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Ποια μέθοδος έρευνας χρησιμοποιήθηκε για τη διεξαγωγή της ανάλυσης αναγκών για το εκπαιδευτικό υλικό του έργου;",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Έρευνες",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Συνεντεύξεις",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Θεματική ανάλυση",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Μελέτες περιπτώσεων",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Ποιος ήταν ο πρωταρχικός στόχος της μελέτης που διεξήχθη από το καλοκαίρι του 2022 έως το τέλος του 2022;",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Αξιολόγηση της σωματικής υγείας των ηλικιωμένων",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Εντοπισμός κοινών προβλημάτων ψυχικής υγείας μεταξύ των ηλικιωμένων κατά τη διάρκεια της πανδημίας COVID-19",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Αξιολόγηση της αποτελεσματικότητας των υπαρχουσών εφαρμογών για κινητά",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Ανάλυση δεξιοτήτων πληροφορικής (ΙΤ skills) ηλικιωμένων και εκπαιδευτών ενηλίκων",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Πόσοι ειδικοί συμμετείχαν συνέντευξη από τις έξι χώρες εταίρους του έργου;",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Ποια ερευνητική μέθοδος χρησιμοποιήθηκε για την ανάλυση των δεδομένων που συλλέχθηκαν;",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Στατιστική ανάλυση",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Θεματική ανάλυση",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Συγκριτική ανάλυση",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Πειραματική ανάλυση",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Σύμφωνα με τη μελέτη, ποια ήταν τα κύρια θέματα που προέκυψαν από τη θεματική ανάλυση των αποτελεσμάτων;",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Οικονομικά θέματα, πολιτικές προκλήσεις, κοινωνικές ευκαιρίες",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Ψυχολογικά προβλήματα, αιτίες, στρατηγικές αντιμετώπισης, προκλήσεις και προδιαγραφές εφαρμογών",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Πολιτιστικές διαφορές, γλωσσικά εμπόδια, τεχνολογικές εξελίξεις",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Σωματική υγεία, συναισθηματική ευεξία, περιβαλλοντικοί παράγοντες",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

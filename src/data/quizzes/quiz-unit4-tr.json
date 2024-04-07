@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Projenin öğrenme materyali için ihtiyaç analizi yapmak üzere hangi araştırma yöntemi kullanılmıştır??",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Anketler",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Görüşmeler",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Tematik analiz",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Vaka çalışmaları",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "2022'nin yaz aylarından 2022'nin sonuna kadar yürütülen çalışmanın temel amacı neydi?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Yaşlıların fiziksel sağlığının değerlendirilmesi",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "COVID-19 pandemisi sırasında yaşlılar arasında yaygın ruh sağlığı sorunlarının belirlenmesi",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Mevcut mobil uygulamaların etkinliğinin değerlendirilmesi",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Yaşlıların ve yetişkin eğitimcilerin BT becerilerinin analiz edilmesis",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Altı proje ortağı ülkede kaç uzmanla görüşülmüştür?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Toplanan verileri analiz etmek için hangi araştırma yöntemi kullanılmıştır?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "İstatistiksel analiz",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Tematik analiz",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Karşılaştırmalı analiz",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Deneysel analiz",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Çalışmaya göre, sonuçların tematik analizinden ortaya çıkan ana temalar neler olmuştur?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Ekonomik sorunlar, siyasi zorluklar, sosyal fırsatlar",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Psikolojik sorunlar, nedenleri, başa çıkma stratejileri, zorluklar ve uygulama özellikleri",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Kültürel farklılıklar, dil engelleri, teknolojik gelişmeler",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Fiziksel sağlık, duygusal refah, çevresel faktörler",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

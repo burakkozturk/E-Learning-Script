@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "¿Qué método de investigación se empleó para llevar a cabo el análisis de las necesidades del material didáctico del proyecto?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Encuestas",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Entrevistas",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Análisis temático",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Estudios de casos",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "¿Cuál fue el objetivo principal del estudio realizado desde el verano de 2022 hasta finales de 2022?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Evaluación de la salud física de las personas mayores",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Identificar problemas comunes de salud mental entre las personas mayores durante la pandemia de COVID-19",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Evaluar la eficacia de las aplicaciones móviles existentes",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Analizar las competencias informáticas de las personas mayores y de los educadores de adultos",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "¿Cuántos especialistas fueron entrevistados en los seis países socios del proyecto?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "¿Qué método de investigación se utilizó para analizar los datos recopilados?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Análisis estadístico",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Análisis temático",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Análisis comparativo",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Análisis experimental",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Según el estudio, ¿cuáles fueron los principales temas que surgieron del análisis temático de los resultados?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Cuestiones económicas, desafíos políticos, oportunidades sociales",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Problemas psicológicos, causas, estrategias de afrontamiento, desafíos y especificaciones de la aplicación",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Diferencias culturales, barreras lingüísticas, avances tecnológicos",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Salud física, bienestar emocional, factores ambientales",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

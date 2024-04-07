@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Hvilken forskningsmetode blev anvendt til at gennemføre behovsanalysen for projektets undervisningsmateriale?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Undersøgelser",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Interviews",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Tematisk analyse",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Casestudier",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Hvad var det primære formål med undersøgelsen, der blev gennemført fra sommeren 2022 til slutningen af 2022?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Vurdering af ældres fysiske helbred",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Identificering af almindelige mentale helbredsproblemer blandt ældre under COVID-19-pandemien",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Evaluering af effektiviteten af eksisterende mobilapps",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Analyse af ældres og voksenunderviseres IT-færdigheder",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Hvor mange specialister blev interviewet i de seks projektpartnerlande?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Hvilken forskningsmetode blev brugt til at analysere de indsamlede data?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Statistisk analyse",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Tematisk analyse",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Sammenlignende analyse",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Eksperimentel analyse",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Ifølge undersøgelsen, hvilke hovedtemaer kom frem i den tematiske analyse af resultaterne?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Økonomiske spørgsmål, politiske udfordringer, sociale muligheder",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Psykologiske problemer, årsager, mestringsstrategier, udfordringer og app- specifikationer",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Kulturelle forskelle, sprogbarrierer, teknologiske fremskridt",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Fysisk helbred, følelsesmæssigt velbefindende, miljømæssige faktorer",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

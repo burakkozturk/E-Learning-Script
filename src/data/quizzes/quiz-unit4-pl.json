@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Jaką metodę badawczą zastosowano do przeprowadzenia analizy potrzeb w zakresie materiałów edukacyjnych projektu?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Ankiety",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Wywiady",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Analiza tematyczna",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Studia przypadków",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Jaki był główny cel badania przeprowadzonego od lata 2022 r. do końca 2022 r.?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Ocena zdrowia fizycznego seniorów",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Identyfikacja powszechnych problemów ze zdrowiem psychicznym wśród seniorów podczas pandemii COVID-19",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Ocena skuteczności istniejących aplikacji mobilnych",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Analiza umiejętności informatycznych seniorów i edukatorów dorosłych",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Z iloma specjalistami przeprowadzono wywiady w sześciu krajach partnerskich projektu?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "22",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "33",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "45",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "55",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Jaką metodę badawczą zastosowano do analizy zebranych danych?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Analiza statystyczna",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Analiza tematyczna",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Analiza porównawcza",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Analiza eksperymentalna",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Jakie były główne tematy, które wyłoniły się z analizy tematycznej wyników badania?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Kwestie gospodarcze, wyzwania polityczne, możliwości społeczne",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Problemy psychologiczne, przyczyny, strategie radzenia sobie, wyzwania i specyfikacje aplikacji",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Różnice kulturowe, bariery językowe, postęp technologiczny",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Zdrowie fizyczne, dobrostan emocjonalny, czynniki środowiskowe",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]
