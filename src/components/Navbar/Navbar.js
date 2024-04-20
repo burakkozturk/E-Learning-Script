@@ -23,7 +23,9 @@ function Navbar() {
   return (
     <nav>
       <div className="logo-container">
+        <a className='goBackButton' href="https://mbat4seniors.com" rel="noopener noreferrer" title="Go Back to Website">
         <img src='./logo.png' alt="Logo" />
+        </a>
       </div>
       <div className="navbar-container">
         <ul>
